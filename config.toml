@@ -174,12 +174,12 @@ Github = true
 enable = true
 [params.page.comment.disqus]
 enable = true
-shortname = "yeahwong"
+shortname = "qing_mu"
 
 [params.analytics]
 enable = false
 [params.analytics.google]
-id = "UA-28259000-1"
+id = "UA-169624248-1"
 anonymizeIP = false
 
 [markup]
