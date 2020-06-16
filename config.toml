@@ -174,7 +174,7 @@ Github = true
 enable = true
 [params.page.comment.disqus]
 enable = true
-shortname = "qing_mu"
+shortname = "afly-1"
 
 [params.analytics]
 enable = false
