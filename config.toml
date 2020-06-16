@@ -1,0 +1,205 @@
+baseURL = "https://afly.ink/"
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-cn"
+hasCJKLanguage = true
+title = "飛的阴晴雨露"
+theme = "Loveit"
+summaryLength = "140"
+
+[author]
+name = "阿扑飞"
+link = "https://afly.ink/"
+email = "sartreexistence@gmail.com"
+
+[params]
+version = "0.2.X"
+defaultTheme = "auto"
+keywords = ["马克思主义者", "左派", "生活爱好者"]
+gitRepo = ""
+dateFormat = "2006-01-02"
+images = ["/logo.png"]
+
+[params.header]
+desktopMode = "fixed"
+mobileMode = "auto"
+
+[params.list]
+paginate = 20
+dateFormat = "01-02"
+rss = 10
+
+[params.home]
+rss = 10
+
+[params.home.profile]
+enable = true
+gravatarEmail = ""
+avatarUrl = "images/avatar.jpg"
+title = "Marxist, yes!"
+typeit = true
+social = true
+
+[params.home.posts]
+enable = true
+paginate = 6
+
+[params.social]
+Twitter = "sartrefreedom"
+Github = "AflyA"
+Telegram = ""
+Weibo = ""
+Hackernews = ""
+Zhihu = ""
+Douban = "aflywind"
+Email = "sartreexistence@gmail.com"
+RSS = true
+
+[params.section]
+paginate = 10000000
+dateFormat = "01-02"
+rss = 10
+
+[params.page]
+hiddenFromHomePage = false
+hiddenFromSearch = false
+twemoji = false
+lightgallery = true
+ruby = true
+fraction = true
+fontawesome = true
+linkToMarkdown = true
+rssFullText = true
+
+[params.page.code]
+copy = false
+
+[menu]
+[[menu.main]]
+name="Home"
+url="/"
+weight = 1
+[[menu.main]]
+identifier = "posts"
+pre = ""
+post = ""
+name = "Archives"
+url = "/posts/"
+title = ""
+weight = 2
+[[menu.main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "Categories"
+url = "/categories/"
+title = ""
+weight = 3
+[[menu.main]]
+identifier = "tags"
+pre = ""
+post = ""
+name = "Tags"
+url = "/tags/"
+title = ""
+weight = 4
+[[menu.main]]
+name="About"
+url="/about"
+weight = 5
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "MarkDown"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+taxonomyTerm = ["HTML"]
+
+[mediaTypes]
+[mediaTypes."text/plain"]
+suffixes = ["md"]
+
+[outputFormats.MarkDown]
+mediaType = "text/plain"
+isPlainText = true
+isHTML = false
+
+[params.footer]
+enable = true
+hugo = true
+since = 2019
+license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank">CC BY-NC 3.0</a>'
+
+[params.page.share]
+enable = true
+Twitter = true
+Facebook = true
+Linkedin = false
+Whatsapp = false
+Pinterest = false
+Tumblr = false
+HackerNews = false
+Reddit = false
+VK = false
+Buffer = false
+Xing = false
+Line = false
+Instapaper = false
+Pocket = true
+Digg = false
+Stumbleupon = false
+Flipboard = false
+Weibo = false
+Renren = false
+Myspace = false
+Blogger = false
+Baidu = false
+Odnoklassniki = false
+Evernote = true
+Skype = false
+Trello = false
+Mix = false
+Github = true
+
+[params.page.comment]
+enable = true
+[params.page.comment.disqus]
+enable = true
+shortname = "yeahwong"
+
+[params.analytics]
+enable = false
+[params.analytics.google]
+id = "UA-28259000-1"
+anonymizeIP = false
+
+[markup]
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+[markup.goldmark]
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 6
