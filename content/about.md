@@ -2,6 +2,7 @@
 title: "飞的介绍"
 date: 2019-06-21+08:00
 draft: false
+comment: false
 ---
 
 {{< figure src="/images/avatar.jpg" width="300" height="300" title="阿扑飞" >}}
