@@ -2,7 +2,7 @@ baseURL = "https://afly.ink/"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-cn"
 hasCJKLanguage = true
-title = "飛的阴晴雨露"
+title = "飛的阴晴雨录"
 theme = "Loveit"
 summaryLength = "140"
 
